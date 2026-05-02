@@ -20,7 +20,7 @@ export default function Marquee() {
       <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-[var(--background)] to-transparent z-10 pointer-events-none" />
       <motion.div
         animate={{ x: ["0%", "-50%"] }}
-        transition={{ duration: 38, repeat: Infinity, ease: "linear" }}
+        transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
         className="flex gap-12 whitespace-nowrap"
       >
         {[...ITEMS, ...ITEMS, ...ITEMS].map((it, i) => (
