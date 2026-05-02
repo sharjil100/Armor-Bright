@@ -102,7 +102,7 @@ export default function Modes() {
   const [active, setActive] = useState<Mode>(MODES[0]);
 
   return (
-    <section id="modes" className="relative py-24 sm:py-32">
+    <section id="modes" className="relative py-24 sm:py-32 overflow-hidden">
       <div className="absolute inset-0 bg-grid pointer-events-none opacity-60" />
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeading

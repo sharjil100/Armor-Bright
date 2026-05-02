@@ -36,7 +36,7 @@ export default function FAQ() {
   const [open, setOpen] = useState<number | null>(0);
 
   return (
-    <section id="faq" className="relative py-24 sm:py-32">
+    <section id="faq" className="relative py-24 sm:py-32 overflow-hidden">
       <div className="absolute inset-0 -z-10 pointer-events-none">
         <div className="absolute top-1/4 -left-32 size-[400px] rounded-full bg-[var(--accent)]/10 blur-[140px]" />
         <div className="absolute bottom-0 -right-32 size-[360px] rounded-full bg-[var(--gold)]/8 blur-[120px]" />

@@ -46,7 +46,7 @@ const CARDS = [
 
 export default function Features() {
   return (
-    <section id="benefits" className="relative py-24 sm:py-32">
+    <section id="benefits" className="relative py-24 sm:py-32 overflow-hidden">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeading
           eyebrow="Why Homeowners Choose Us"

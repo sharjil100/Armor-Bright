@@ -29,7 +29,7 @@ const TRUST_POINTS = [
 
 export default function CTA() {
   return (
-    <section id="quote" className="relative py-24 sm:py-32">
+    <section id="quote" className="relative py-24 sm:py-32 overflow-hidden">
       {/* Soft gradient backdrop */}
       <div className="absolute inset-0 -z-10 pointer-events-none">
         <div className="absolute -top-40 left-1/4 size-[500px] rounded-full bg-[var(--accent)]/15 blur-[140px]" />

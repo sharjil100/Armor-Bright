@@ -37,7 +37,7 @@ export default function HiddenInstall() {
   };
 
   return (
-    <section id="hidden" className="relative py-24 sm:py-32">
+    <section id="hidden" className="relative py-24 sm:py-32 overflow-hidden">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-12 gap-10 lg:gap-12 items-center">
           {/* Copy */}
